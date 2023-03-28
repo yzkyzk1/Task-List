@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.main{
+    width:80%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 600px;
+}
+
+.main .title{
+    font-weight: lighter;
+}
+
+.main input{
+    border: 0;
+    margin: 0;
+    height: 25px;
+    outline: none;
+}
+
+hr{
+    margin: 0;
+}
+
+.btn{
+    background-color: darkcyan;
+    padding:10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top{
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+
+.bottom{
+    margin: 20px;
+    
+}
+
+.bottom .note{
+    border: 0.3px solid black;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .note .ex{
+    color: red;
+    /* position: absolute;
+    right: 30px; */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.clear{
+    background-color: black;
+}
